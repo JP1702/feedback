@@ -1,4 +1,4 @@
-const resumen = document.querySelector("h2");
+iconst resumen = document.querySelector("h2");
 const tabla = document.querySelector("#mencion");
 const palabreo = document.querySelector("#palabreo");
 const dona = document.querySelector("#donnut");
@@ -497,7 +497,7 @@ async function datos(criterio) {
     }
 }
 
-datos("Abud Carrillo, Jenny").catch((error) => console.error(error));
+datos("Perelli Soto, Bruno").catch((error) => console.error(error));
 
 document.querySelectorAll("select")[0].addEventListener("change", (event) => {
     tabla.innerHTML = " ";
